@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+  }
+  
+  .cell {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .row-id {
+    grid-column: 1 / -1;
+  }
